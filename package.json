@@ -1,0 +1,23 @@
+{
+  "name": "electron-pdf-reader",
+  "version": "1.0.0",
+  "description": "Simple pdf reader one electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Electron",
+    "pdf",
+    "reader"
+  ],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.2"
+  }
+}

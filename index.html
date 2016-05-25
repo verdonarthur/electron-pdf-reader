@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!--<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>-->
+    <!--<script src="node_modules/jquery/dist/jquery.js"></script>-->
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <button id="select-pdf" style="height:25px;width:50px">
+            <div class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-5">
+
+            </div>
+        </div>
+    </nav>
+    <canvas id="pdf">
+
+    </canvas>
+</body>
+
+<script>
+    require('./renderer.js')
+</script>
+<script src="js/pdf_gestion.js"></script>
+
+</html>
