@@ -20,16 +20,20 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-              <button id="select-pdf" style="height:25px;width:50px">
-            <div class="collapse navbar-collapse"
-                id="bs-example-navbar-collapse-5">
-
+                <button class="btn btn-default" id="select-pdf" style="margin-top:5%"><span class="glyphicon glyphicon-open-file"></span></button>
+                <button class="btn btn-default" id="page-up-pdf" style="margin-top:5%"><span class="glyphicon glyphicon-chevron-up"></span></button>
+                <button class="btn btn-default" id="page-down-pdf" style="margin-top:5%"><span class="glyphicon glyphicon-chevron-down"></span></button>
             </div>
-        </div>
     </nav>
-    <canvas id="pdf">
+    <div id="mainBlock">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <canvas id="pdf">
 
-    </canvas>
+            </canvas>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
 </body>
 
 <script>
