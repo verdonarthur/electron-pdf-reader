@@ -20,25 +20,29 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button class="btn btn-default" id="select-pdf" style="margin-top:5%"><span class="glyphicon glyphicon-open-file"></span></button>
-                <button class="btn btn-default" id="page-up-pdf" style="margin-top:5%"><span class="glyphicon glyphicon-chevron-up"></span></button>
-                <button class="btn btn-default" id="page-down-pdf" style="margin-top:5%"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                <div id="btn-container">
+                    <button class="btn btn-default" id="select-pdf" ><span class="glyphicon glyphicon-open-file"></span></button>
+                    <button class="btn btn-default" id="page-up-pdf" ><span class="glyphicon glyphicon-chevron-up"></span></button>
+                    <button class="btn btn-default" id="page-down-pdf"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                    <button class="btn btn-default" id="zoom-in-pdf" ><span class="glyphicon glyphicon-zoom-in"></span></button>
+                    <button class="btn btn-default" id="zoom-out-pdf"><span class="glyphicon glyphicon-zoom-out"></span></button>
+                </div>
             </div>
     </nav>
     <div id="mainBlock">
-        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
         <div class="col-md-10">
-            <canvas id="pdf">
-
-            </canvas>
+            <div id="pdf_div">
+                <canvas id="pdf"></canvas>
+            </div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
     </div>
 </body>
 
 <script>
     require('./renderer.js')
 </script>
-<script src="js/pdf_gestion.js"></script>
+<script src="js/pdfManager.js"></script>
 
 </html>
