@@ -1,0 +1,7 @@
+{
+ "name": "electron-pdf-reader",
+ "version": "1.0.0",
+ "description": "Simple pdf reader one electron",
+ "main": "D:\\Documents\\Projet\\electronPdfReader\\main.js",
+ "args": []
+}

@@ -1,0 +1,8 @@
+{
+ "m_debuggerPort": 5858,
+ "m_debuggerHost": "127.0.0.1",
+ "m_scriptToExecute": "D:\\Documents\\Projet\\electronPdfReader\\main.js",
+ "m_commandLineArgs": [],
+ "m_workingDirectory": "D:\\Documents\\Projet\\electronPdfReader",
+ "m_breakpoints": []
+}
